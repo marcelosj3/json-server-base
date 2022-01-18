@@ -7,7 +7,7 @@ Repositório para cadastro de pessoas, hobbies e estudos.
 As endpoints abaixo podem ser utilizadas na criação, exclusão e edição de usuários, hobbies e estudos.
 Todas as endpoints precisam da baseURL especificada a seguir.
 
-baseURL: http://localhost:3001
+baseURL: https://json-server-5b11.herokuapp.com
 
 ---
 
@@ -48,8 +48,8 @@ baseURL: http://localhost:3001
 
 ```
 {
-	"password": "123456",
-	"name": "Fulano",
+  "password": "123456",
+  "name": "Fulano",
 }
 ```
 
@@ -66,8 +66,8 @@ baseURL: http://localhost:3001
 ```
 {
   "email": "marcelo23@kenzie.com",
-	"password": "123",
-	"name": "Fulano",
+  "password": "123",
+  "name": "Fulano",
 }
 ```
 
@@ -167,15 +167,15 @@ baseURL: http://localhost:3001
     "class": "FullStack Kenzie Academy",
     "institution": "Kenzie Academy",
     "how_many_months": 12,
-	  "actual_month": 5,
+    "actual_month": 5,
     "userId": 1,
     "id": 1
   },
-    {
+  {
     "class": "FullStack Kenzie Academy",
     "institution": "Kenzie Academy",
     "how_many_months": 12,
-	  "actual_month": 5,
+    "actual_month": 5,
     "userId": 2,
     "id": 2
   }
@@ -196,7 +196,7 @@ Substituir **_USERID_** pelo ID do usuário.
     "class": "FullStack Kenzie Academy",
     "institution": "Kenzie Academy",
     "how_many_months": 12,
-	  "actual_month": 5,
+    "actual_month": 5,
     "userId": 1,
     "id": 1
   }
@@ -223,8 +223,8 @@ Para a parte de autorização pode-se utilizar o header abaixo na hora das requi
 
 ```
 {
-  'Content-Type': 'application/json',
-  'Authorization': `Bearer ${token}`
+  "Content-Type': "application/json",
+  "Authorization': `Bearer ${token}`
 }
 ```
 
@@ -244,29 +244,29 @@ Substituir **_USERID_** pelo ID do usuário.
 
 ```
 {
-    "email": "seuemail@email.com",
-    "password": "$2a$10$qZKOZqXxYBLgkzLsYmrz5.krLXfkPCQTHM5Yk91uyuV5q3h2E4Q6u",
-    "name": "Fulano",
-    "age": 24,
-    "id": 1,
-    "hobbies": [
-        {
-            "name": "Andar de bicicleta",
-            "difficulty": "Média",
-            "userId": 1,
-            "id": 1
-        }
-    ],
-    "studies": [
-        {
-            "class": "FullStack Kenzie Academy",
-            "institution": "Kenzie Academy",
-            "how_many_months": 12,
-          	"actual_month": 5,
-            "userId": 1,
-            "id": 1
-        },
-    ]
+  "email": "seuemail@email.com",
+  "password": "$2a$10$qZKOZqXxYBLgkzLsYmrz5.krLXfkPCQTHM5Yk91uyuV5q3h2E4Q6u",
+  "name": "Fulano",
+  "age": 24,
+  "id": 1,
+  "hobbies": [
+    {
+      "name": "Andar de bicicleta",
+      "difficulty": "Média",
+      "userId": 1,
+      "id": 1
+    }
+  ],
+  "studies": [
+    {
+      "class": "FullStack Kenzie Academy",
+      "institution": "Kenzie Academy",
+      "how_many_months": 12,
+      "actual_month": 5,
+      "userId": 1,
+      "id": 1
+    },
+  ]
 }
 ```
 
@@ -310,18 +310,18 @@ Substituir **_USERID_** pelo ID do usuário.
 
 ```
 [
-    {
-        "name": "Andar de bicicleta",
-        "difficulty": "Média",
-        "userId": 1,
-        "id": 1
-    },
-    {
-        "name": "Tocar guitarra",
-        "difficulty": "Difícil",
-        "userId": 2,
-        "id": 2
-    }
+  {
+    "name": "Andar de bicicleta",
+    "difficulty": "Média",
+    "userId": 1,
+    "id": 1
+  },
+  {
+    "name": "Tocar guitarra",
+    "difficulty": "Difícil",
+    "userId": 2,
+    "id": 2
+  }
 ]
 ```
 
@@ -335,18 +335,18 @@ Substituir **_USERID_** pelo ID do usuário.
 
 ```
 [
-    {
-        "name": "Andar de bicicleta",
-        "difficulty": "Média",
-        "userId": 1,
-        "id": 1
-    },
-    {
-        "name": "Tocar guitarra",
-        "difficulty": "Difícil",
-        "userId": 2,
-        "id": 2
-    }
+  {
+    "name": "Andar de bicicleta",
+    "difficulty": "Média",
+    "userId": 1,
+    "id": 1
+  },
+  {
+    "name": "Tocar guitarra",
+    "difficulty": "Difícil",
+    "userId": 2,
+    "id": 2
+  }
 ]
 ```
 
@@ -509,11 +509,11 @@ Substituir **_HOBBIEID_** pelo ID do hobbie.
 
 ```
 {
-	"class": "FullStack Kenzie Academy",
-	"institution": "Kenzie Academy",
-	"how_many_months": 12,
-	"actual_month": 5,
-	"userId": 1
+  "class": "FullStack Kenzie Academy",
+  "institution": "Kenzie Academy",
+  "how_many_months": 12,
+  "actual_month": 5,
+  "userId": 1
 }
 ```
 
@@ -523,8 +523,8 @@ Substituir **_HOBBIEID_** pelo ID do hobbie.
 {
   "class": "FullStack Kenzie Academy",
   "institution": "Kenzie Academy",
-	"how_many_months": 12,
-	"actual_month": 5,
+  "how_many_months": 12,
+  "actual_month": 5,
   "userId": 1,
   "id": 1
 }
@@ -538,11 +538,11 @@ Substituir **_HOBBIEID_** pelo ID do hobbie.
 
 ```
 {
-	"class": "FullStack Kenzie Academy",
-	"institution": "Kenzie Academy",
-	"how_many_months": 12,
-	"actual_month": 5,
-	"userId": 2
+  "class": "FullStack Kenzie Academy",
+  "institution": "Kenzie Academy",
+  "how_many_months": 12,
+  "actual_month": 5,
+  "userId": 2
 }
 ```
 
@@ -560,7 +560,7 @@ Substituir **_HOBBIEID_** pelo ID do hobbie.
 
 ```
 {
-	"actual_month": 8,
+  "actual_month": 8,
 }
 ```
 
@@ -587,7 +587,7 @@ Substituir o **_STUDYID_** pelo id do estudo. Repare que você adicionar novas l
 
 ```
 {
-	"actual_month": 10,
+  "actual_month": 10,
 }
 ```
 
@@ -603,7 +603,7 @@ Substituir o **_STUDYID_** pelo id do estudo. Repare que você adicionar novas l
 
 ```
 {
-	"actual_month": 8,
+  "actual_month": 8,
 }
 ```
 
