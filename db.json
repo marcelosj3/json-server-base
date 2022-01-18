@@ -1,11 +1,100 @@
 {
   "users": [
     {
-      "email": "kenzinho@mail.com",
-      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
-      "name": "Kenzinho",
-      "age": 38,
+      "email": "marcelo1@kenzie.com",
+      "password": "$2a$10$QTu.eXWTeVjMPpoNX7uwkuMUs4BMUu.htTzH3VJiprWOeebCH6XC2",
+      "name": "Marcelo",
+      "age": 24,
       "id": 1
+    },
+    {
+      "email": "marcelo@kenzie.com",
+      "password": "$2a$10$tYo0QkCXWeKJDjmTe3RXKuGxDEEBzJkkuH816WJlQLovLJfYjxF.e",
+      "name": "Marcelo",
+      "age": 24,
+      "id": 2
+    },
+    {
+      "email": "marcelo2@kenzie.com",
+      "password": "$2a$10$97u9aycomJmxlgvqjXKCf.xkpXWPX6IdrHB7q2uS2S22marn4pAcG",
+      "name": "Marcelo",
+      "age": 24,
+      "id": 3
+    },
+    {
+      "email": "marcelo3@kenzie.com",
+      "password": "$2a$10$0aTK8rpnL9UXkkCxg0VgcOi2kpswespb3pp/YNRxacHrakJkZbPku",
+      "name": "Marcelo",
+      "age": 24,
+      "id": 4
+    }
+  ],
+  "hobbies": [
+    {
+      "name": "Andar de bicicletaaaaaadsasdasd",
+      "difficulty": "Média",
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "name": "Andar de bicicletaaaaaadsasdasd",
+      "difficulty": "Média",
+      "userId": 2,
+      "id": 4
+    },
+    {
+      "name": "Andar de bicicleta",
+      "difficulty": "Fácil",
+      "userId": 1,
+      "id": 6
+    }
+  ],
+  "studies": [
+    {
+      "class": "FullStack Kenzie Academy",
+      "institution": "Kenzie Academy",
+      "how_many_years": "1",
+      "userId": 1,
+      "id": 3,
+      "name": "Andar de bicicleta",
+      "difficulty": "dsfsdfdsf"
+    },
+    {
+      "class": "FullStack Kenzie Academy",
+      "institution": "Kenzie Academy",
+      "how_many_years": "1",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "class": "FullStack Kenzie Academy",
+      "institution": "Kenzie Academy",
+      "how_many_years": 1,
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "class": "FullStack Kenzie Academy",
+      "institution": "Kenzie Academy",
+      "how_many_years": 1,
+      "userId": 3,
+      "id": 8
+    },
+    {
+      "class": "FullStack Kenzie Academy",
+      "institution": "Kenzie Academy",
+      "how_many_months": 12,
+      "actual_month": 7,
+      "userId": 2,
+      "id": 9
+    },
+    {
+      "class": "FullStack Kenzie Academy",
+      "institution": "Kenzie Academy",
+      "how_many_months": 12,
+      "actual_month": 7,
+      "userId": 2,
+      "id": 10
     }
   ]
 }
